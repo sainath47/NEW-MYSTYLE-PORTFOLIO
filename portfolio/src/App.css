@@ -1,0 +1,101 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav div.right {
+
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  padding-right: 90px;
+
+
+}
+
+nav div.right a {
+  color: white;
+  /* font-weight: 600; */
+}
+
+nav div.left {
+  padding: 20px;
+  width: 50%;
+}
+
+nav div.left a.name {
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+#hero .left {
+  /* padding-top: 140px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+}
+
+#hero .left span {
+  font-size: x-large;
+}
+
+#hero .left span.largest-boldest {
+  font-size: xxx-large;
+  font-weight: 900;
+}
+
+#hero .left p {
+  color: grey;
+  padding: 10px 0;
+}
+
+div.sections{
+  position: absolute;
+}
+
+#hero {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#hero .right {
+  width: 60%;
+}
+
+#hero .right img {
+  height: 100vh;
+  width: 100%;
+
+
+}
+
+
+#skills {
+ 
+}
