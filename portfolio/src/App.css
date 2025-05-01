@@ -177,4 +177,8 @@ div.sections {
   nav div.hamburger {
     color: black;
   }
+
+  .contact-us img{
+    display: none;
+  }
 }

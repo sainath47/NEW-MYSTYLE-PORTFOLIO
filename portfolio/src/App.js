@@ -282,7 +282,7 @@ Contact. */}
     </div>
 
     {/* <!-- Right side: Image + Navigation --> */}
-    <div class="w-full md:w-1/2 relative">
+    <div class="hidden sm:block w-full md:w-1/2 relative">
       <img
         src="https://storage.googleapis.com/a1aa/image/6003f1aa-c206-43d8-a4e7-d1b0d6f772d6.jpg"
         alt="Person holding smartphone and laptop on desk symbolizing contact and communication"
