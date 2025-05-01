@@ -7,18 +7,25 @@ function App() {
   <div className='left'>
   <a className='name' href="/">Sainath Reddy</a>
   </div>
-<div className='right'>
-<a className='name' href="/">Home</a>
+  {/* class="text-white sm:hidden md:hidden" */}
+<div className='right' >
+<a  href="/">Home</a>
 {/* <a className='name' href="/">About</a> */}
-<a className='name' href="/">Skills</a>
-<a className='name' href="/">Experience</a>
-<a className='name' href="/">Contact</a>
+<a  href="/">Skills</a>
+<a  href="/">Experience</a>
+<a href="/">Contact</a>
 {/* Home, 
 About, 
 Skills,
 Experience,
  Projects, (coming soon, i have done many will portray them here beautifuly , at list them out here)
 Contact. */}
+</div>
+<div className="hamburger">
+<i class="fas fa-bars"></i>
+</div>
+<div className="side-menu">
+  hello god is speaking to the gods
 </div>
 
 </nav>
@@ -206,10 +213,10 @@ Contact. */}
 <section id="contact-us">
 <div class="bg-gray-200 text-black">
   <div class="min-h-screen flex flex-col md:flex-row">
-    {/* <!-- Left side: Contact Form --> */}
-    <div class="w-full md:w-1/2 bg-gray-200 p-10 flex flex-col justify-center max-w-md mx-auto">
-      <h1 class="font-black text-3xl mb-8">Contact Me</h1>
-      <form class="space-y-6" action="#" method="POST">
+    {/* <!-- Left side: Contact Form + Info --> */}
+    <div class="w-full md:w-1/2 bg-gray-200 p-10 flex flex-col justify-center max-w-md mx-auto space-y-12">
+      <h1 class="font-black text-3xl">Contact Me</h1>
+      <form class="space-y-6" action="#" method="POST" novalidate>
         <div>
           <label for="name" class="block mb-1 font-semibold text-sm">Name</label>
           <input
@@ -250,6 +257,28 @@ Contact. */}
           Send Message
         </button>
       </form>
+
+      <div class="pt-8 border-t border-gray-200">
+        <h2 class="font-semibold text-lg mb-4">Find me on</h2>
+        <div class="flex flex-col space-y-4 text-gray-700 text-sm">
+          <a href="https://github.com/sainath47" target="_blank" rel="noopener" class="flex items-center gap-3 hover:text-black transition">
+            <i class="fab fa-github text-2xl"></i>
+            <span>GitHub: github.com/sainath47</span>
+          </a>
+          <a href="https://www.linkedin.com/in/sainath-reddy-4444a7234/" target="_blank" rel="noopener" class="flex items-center gap-3 hover:text-blue-700 transition">
+            <i class="fab fa-linkedin text-2xl text-blue-700"></i>
+            <span>LinkedIn: linkedin.com/in/sainath-reddy-4444a7234</span>
+          </a>
+          <a href="mailto:p.v.sainathreddy@hotmail.com" class="flex items-center gap-3 hover:text-red-600 transition">
+            <i class="fas fa-envelope text-2xl text-red-600"></i>
+            <span>Email: p.v.sainathreddy@hotmail.com</span>
+          </a>
+          <a href="tel:+918826474768" class="flex items-center gap-3 hover:text-green-600 transition">
+            <i class="fas fa-phone-alt text-2xl text-green-600"></i>
+            <span>Phone: +91 8826474768</span>
+          </a>
+        </div>
+      </div>
     </div>
 
     {/* <!-- Right side: Image + Navigation --> */}
@@ -261,6 +290,7 @@ Contact. */}
         width="800"
         height="600"
       />
+
       <button
         aria-label="Settings"
         class="absolute bottom-6 left-6 bg-black bg-opacity-80 text-white p-2 rounded-md text-xs"
