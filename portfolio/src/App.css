@@ -155,15 +155,18 @@ div.sections {
 }
 
 @media (max-width:640px) {
-
+div.App{
+  
+}
   #hero{
     display: flex;
     flex-direction:  column;
     width: 100%;
+
   }
   #hero .left{
     width: 100%;
-    max-width: max-content;
+    /* max-width: max-content; */
     /* padding: 0;
     margin: 0; */
   }
