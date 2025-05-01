@@ -67,7 +67,7 @@ nav div.left a.name {
   flex-direction: column;
   width: 40%;
   margin: 0 20px 0 50px;
-  max-width: 320px;
+  width: 320px;
   float: left;
 }
 
@@ -155,9 +155,7 @@ div.sections {
 }
 
 @media (max-width:640px) {
-div.App{
-  
-}
+
   #hero{
     display: flex;
     flex-direction:  column;
@@ -165,10 +163,10 @@ div.App{
 
   }
   #hero .left{
-    width: 100%;
-    /* max-width: max-content; */
-    /* padding: 0;
-    margin: 0; */
+    /* width: 100%; */
+    width: fit-content;
+
+
   }
   #hero .right{
     padding: 0;
