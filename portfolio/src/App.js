@@ -261,11 +261,11 @@ Contact. */}
       <div class="pt-8 border-t border-gray-200">
         <h2 class="font-semibold text-lg mb-4">Find me on</h2>
         <div class="flex flex-col space-y-4 text-gray-700 text-sm">
-          <a href="https://github.com/sainath47" target="_blank" rel="noopener" class="flex items-center gap-3 hover:text-black transition">
+          <a href="https://github.com/sainath47" target="_blank" rel="noreferrer" class="flex items-center gap-3 hover:text-black transition">
             <i class="fab fa-github text-2xl"></i>
             <span>GitHub: github.com/sainath47</span>
           </a>
-          <a href="https://www.linkedin.com/in/sainath-reddy-4444a7234/" target="_blank" rel="noopener" class="flex items-center gap-3 hover:text-blue-700 transition">
+          <a href="https://www.linkedin.com/in/sainath-reddy-4444a7234/" target="_blank" rel="noreferrer" class="flex items-center gap-3 hover:text-blue-700 transition">
             <i class="fab fa-linkedin text-2xl text-blue-700"></i>
             <span>LinkedIn: linkedin.com/in/sainath-reddy-4444a7234</span>
           </a>
