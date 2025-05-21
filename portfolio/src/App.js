@@ -1,21 +1,26 @@
 import "./App.css";
+import React, { useState } from 'react';
 import sainath from "./photos/sainath.jpg";
 function App() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+
   return (
     <div className="App">
-      <div className="side-menu">
+      <div className={`side-menu ${isOpen ? 'open' : ''}`}>
         <div className="side-menu-wrapper">
           <div className="cross-icon">
-          <i  class="fas fa-times"></i>
+          <i  class="fas fa-times" onClick={()=>setIsOpen(false)}></i>
           </div>
         
           <div className="side-menu-wrapper-wrapper">
           
-            <a href="/">Home</a>
+            <a href="#hero">Home</a>
             {/* <a className='name' href="/">About</a> */}
-            <a href="/">Skills</a>
-            <a href="/">Experience</a>
-            <a href="/">Contact</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact-us">Contact</a>
           </div>
         </div>
       </div>
@@ -27,11 +32,11 @@ function App() {
         </div>
         {/* class="text-white sm:hidden md:hidden" */}
         <div className="right">
-          <a href="/">Home</a>
-          {/* <a className='name' href="/">About</a> */}
-          <a href="/">Skills</a>
-          <a href="/">Experience</a>
-          <a href="/">Contact</a>
+        <a href="#hero">Home</a>
+            {/* <a className='name' href="/">About</a> */}
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact-us">Contact</a>
           {/* Home, 
 About, 
 Skills,
@@ -39,8 +44,8 @@ Experience,
  Projects, (coming soon, i have done many will portray them here beautifuly , at list them out here)
 Contact. */}
         </div>
-        <div className="hamburger">
-          <i class="fas fa-bars"></i>
+        <div className="hamburger" >
+          <i class="fas fa-bars" onClick={()=>setIsOpen(true)}></i>
         </div>
       </nav>
       <div className="sections">
