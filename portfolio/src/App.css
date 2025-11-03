@@ -133,7 +133,7 @@ div.sections {
     height: 100%;
     /* height: 100vh; */
     /* background-color: white; */
-    
+
 
   }
 
@@ -185,10 +185,10 @@ div.sections {
     /* font awesome icon should be enclosed by the div , the class + className never work , thats for sure */
   }
 
-  div.side-menu-wrapper i{
+  div.side-menu-wrapper i {
     border: 1px solid grey;
     padding: 10px;
-   }
+  }
 
   #hero .left {
     padding-top: 50px;
@@ -279,4 +279,3 @@ div.sections {
 
   }
 }
-
